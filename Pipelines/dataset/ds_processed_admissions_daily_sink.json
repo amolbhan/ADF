@@ -1,0 +1,23 @@
+{
+	"name": "ds_processed_admissions_daily_sink",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_csv_to_dl",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "ECDC/hospital_admissions_dat_daily",
+				"fileSystem": "processed"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
