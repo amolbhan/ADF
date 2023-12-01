@@ -2,7 +2,7 @@
 	"name": "ds_population_raw_tsv",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "ds_population_raw_tsv_dl",
+			"referenceName": "dl_population_raw_tsv_dl",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
@@ -10,7 +10,6 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "population_by_age_tsv",
 				"fileSystem": "raw"
 			},
 			"columnDelimiter": "\t",
