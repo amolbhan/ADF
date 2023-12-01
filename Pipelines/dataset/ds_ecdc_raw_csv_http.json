@@ -7,10 +7,12 @@
 		},
 		"parameters": {
 			"sourcerelativeURL": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "sourceRelativeURL"
 			},
 			"sourcebaseURL": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "sourceBaseURL"
 			}
 		},
 		"annotations": [],
