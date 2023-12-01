@@ -47,7 +47,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"items": {
-						"value": "@activity('Lookup ECDC File List').output.value",
+						"value": "@activity('Lookup ECDC File List').output.value\n\n",
 						"type": "Expression"
 					},
 					"isSequential": true,
@@ -102,7 +102,7 @@
 									"type": "DatasetReference",
 									"parameters": {
 										"sourcerelativeURL": {
-											"value": "@item().sourceRelativeURL",
+											"value": "@item().activity('Lookup ECDC File List').output",
 											"type": "Expression"
 										},
 										"sourcebaseURL": {
