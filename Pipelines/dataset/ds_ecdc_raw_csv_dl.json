@@ -2,7 +2,7 @@
 	"name": "ds_ecdc_raw_csv_dl",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "ds_ecdc_raw_csv_dl",
+			"referenceName": "dl_ecdc_raw_csv_dl",
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {
@@ -23,6 +23,7 @@
 				"fileSystem": "raw"
 			},
 			"columnDelimiter": ",",
+			"compressionCodec": "gzip",
 			"escapeChar": "\\",
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
