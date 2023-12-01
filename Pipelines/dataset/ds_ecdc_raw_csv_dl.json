@@ -7,7 +7,8 @@
 		},
 		"parameters": {
 			"sinkfilename": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "sinkFileName"
 			}
 		},
 		"annotations": [],
