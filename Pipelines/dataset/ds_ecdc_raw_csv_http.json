@@ -21,13 +21,14 @@
 			"location": {
 				"type": "HttpServerLocation",
 				"relativeUrl": {
-					"value": "@dataset().sourcerelativeURL",
+					"value": "dataset().sourcerelativeURL",
 					"type": "Expression"
 				}
 			},
 			"columnDelimiter": ",",
+			"compressionCodec": "gzip",
 			"escapeChar": "\\",
-			"firstRowAsHeader": true,
+			"firstRowAsHeader": false,
 			"quoteChar": "\""
 		},
 		"schema": []
