@@ -1,0 +1,9 @@
+{
+	"name": "CovRepoAdf",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "937c3cba-9301-4fcd-a454-744aeea4d8bd",
+		"tenantId": "6fe177d8-1342-4549-a4e8-b17305aac770"
+	}
+}
